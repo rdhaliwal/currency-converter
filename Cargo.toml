@@ -1,5 +1,5 @@
 [package]
-name = "currency-converter"
+name = "ccon"
 version = "0.1.0"
 authors = ["Randeep Dhaliwal <dhaliwal.randeep.s@gmail.com>"]
 edition = "2018"
