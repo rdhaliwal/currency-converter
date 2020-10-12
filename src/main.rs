@@ -1,7 +1,7 @@
 #![allow(non_snake_case)]
 
-use std::env;
 use serde::Deserialize;
+use std::env;
 
 #[derive(Deserialize, Debug)]
 struct RatesModel {
@@ -36,7 +36,10 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let mut output_amount = args[1].parse::<f32>().unwrap();
     output_amount = output_amount * aud_to_usd_rate;
 
-    println!("{} {} is {} {}", input_currency, input_amount, output_currency, output_amount);
+    println!(
+        "{} {} is {} {}",
+        input_currency, input_amount, output_currency, output_amount
+    );
 
     return Ok(());
 }
