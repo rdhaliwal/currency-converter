@@ -1,5 +1,8 @@
 # Currency Converter
 
+This is a simple command line tool to convert currencies, and a way for me to learn Rust.
+It is powered by the [Exchange Rates API](https://exchangeratesapi.io/)
+
 ## Running the app
 
 ```bash
